@@ -11,7 +11,7 @@ between strict inequalities (>, <) and non-strict inequalities (>=, <=).
 Target pass rate: 10-40%
 Expected answer: 54140
 
-Author: Zahir
+Author: Zahir Alsulaimawi
 Repository: https://github.com/ZahirOSU/RL-Engineer-Assessment-Submission
 """
 
