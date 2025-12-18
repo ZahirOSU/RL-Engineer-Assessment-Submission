@@ -1,0 +1,167 @@
+[
+  {
+    "experiment_id": 101,
+    "model_name": "resnet50",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "epochs": 100,
+    "test_accuracy": 0.8847,
+    "gpu_hours": 24,
+    "status": "completed",
+    "notes": "INCLUDED: All conditions met"
+  },
+  {
+    "experiment_id": 102,
+    "model_name": "resnet50",
+    "learning_rate": 0.01,
+    "batch_size": 64,
+    "epochs": 50,
+    "test_accuracy": 0.82,
+    "gpu_hours": 12,
+    "status": "completed",
+    "notes": "EXCLUDED: test_accuracy equals 0.82 exactly (need > 0.82, not >=)"
+  },
+  {
+    "experiment_id": 103,
+    "model_name": "vgg16",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "epochs": 75,
+    "test_accuracy": 0.8521,
+    "gpu_hours": 48,
+    "status": "completed",
+    "notes": "EXCLUDED: gpu_hours equals 48 exactly (need < 48, not <=)"
+  },
+  {
+    "experiment_id": 104,
+    "model_name": "vgg16",
+    "learning_rate": 0.0001,
+    "batch_size": 16,
+    "epochs": 200,
+    "test_accuracy": 0.8912,
+    "gpu_hours": 72,
+    "status": "completed",
+    "notes": "EXCLUDED: gpu_hours (72) exceeds limit"
+  },
+  {
+    "experiment_id": 105,
+    "model_name": "efficientnet",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "epochs": 50,
+    "test_accuracy": 0.8356,
+    "gpu_hours": 36,
+    "status": "completed",
+    "notes": "INCLUDED: epochs equals 50 exactly (meets >= 50 condition)"
+  },
+  {
+    "experiment_id": 106,
+    "model_name": "efficientnet",
+    "learning_rate": 0.01,
+    "batch_size": 64,
+    "epochs": 25,
+    "test_accuracy": 0.7892,
+    "gpu_hours": 8,
+    "status": "completed",
+    "notes": "EXCLUDED: epochs (25) below minimum, accuracy below threshold"
+  },
+  {
+    "experiment_id": 107,
+    "model_name": "mobilenet",
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "epochs": 60,
+    "test_accuracy": 0.8234,
+    "gpu_hours": 18,
+    "status": "completed",
+    "notes": "INCLUDED: All conditions met"
+  },
+  {
+    "experiment_id": 108,
+    "model_name": "mobilenet",
+    "learning_rate": 0.0001,
+    "batch_size": 32,
+    "epochs": 150,
+    "test_accuracy": 0.8678,
+    "gpu_hours": 42,
+    "status": "failed",
+    "notes": "EXCLUDED: status is 'failed' not 'completed'"
+  },
+  {
+    "experiment_id": 109,
+    "model_name": "densenet121",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "epochs": 80,
+    "test_accuracy": 0.8823,
+    "gpu_hours": 38,
+    "status": "completed",
+    "notes": "INCLUDED: All conditions met"
+  },
+  {
+    "experiment_id": 110,
+    "model_name": "densenet121",
+    "learning_rate": 0.01,
+    "batch_size": 64,
+    "epochs": 40,
+    "test_accuracy": 0.8567,
+    "gpu_hours": 20,
+    "status": "completed",
+    "notes": "EXCLUDED: epochs (40) below minimum"
+  },
+  {
+    "experiment_id": 111,
+    "model_name": "inceptionv3",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "epochs": 100,
+    "test_accuracy": 0.8201,
+    "gpu_hours": 30,
+    "status": "completed",
+    "notes": "INCLUDED: test_accuracy (0.8201) is just barely above 0.82"
+  },
+  {
+    "experiment_id": 112,
+    "model_name": "inceptionv3",
+    "learning_rate": 0.0001,
+    "batch_size": 16,
+    "epochs": 200,
+    "test_accuracy": 0.9012,
+    "gpu_hours": 65,
+    "status": "running",
+    "notes": "EXCLUDED: status is 'running' not 'completed'"
+  },
+  {
+    "experiment_id": 113,
+    "model_name": "transformer",
+    "learning_rate": 0.0001,
+    "batch_size": 8,
+    "epochs": 50,
+    "test_accuracy": 0.8745,
+    "gpu_hours": 47,
+    "status": "completed",
+    "notes": "INCLUDED: gpu_hours (47) is just barely under 48"
+  },
+  {
+    "experiment_id": 114,
+    "model_name": "transformer",
+    "learning_rate": 0.001,
+    "batch_size": 16,
+    "epochs": 75,
+    "test_accuracy": 0.8102,
+    "gpu_hours": 35,
+    "status": "completed",
+    "notes": "EXCLUDED: test_accuracy (0.8102) below threshold"
+  },
+  {
+    "experiment_id": 115,
+    "model_name": "convnext",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "epochs": 60,
+    "test_accuracy": 0.8934,
+    "gpu_hours": 28,
+    "status": "completed",
+    "notes": "INCLUDED: All conditions met"
+  }
+]

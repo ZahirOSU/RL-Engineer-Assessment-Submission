@@ -1,0 +1,23 @@
+[project]
+name = "rl-task-ml-experiment-analysis"
+version = "1.0.0"
+description = "RL training task for ML experiment log analysis with edge case handling"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    {name = "Zahir", email = "zahir@oregonstate.edu"}
+]
+keywords = ["reinforcement-learning", "llm", "training", "ml-engineering"]
+dependencies = [
+    "anthropic>=0.67.0",
+]
+
+[project.urls]
+Repository = "https://github.com/ZahirOSU/RL-Engineer-Assessment-Submission"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]
