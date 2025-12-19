@@ -176,10 +176,7 @@ Tolerance: ±0.5 (handles floating point)
 
 ## Author
 
-**Zahir**  
-Oregon State University  
-December 2024
+**Zahir Alsulaimawi**  
+ 
 
----
 
-*This task was created for the RL Environment Engineer position assessment.*
